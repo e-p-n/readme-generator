@@ -1,6 +1,6 @@
 
-# stfh
-[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+# Sampple Project
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 ## Table of Contents
 * [Description](#description)
@@ -9,24 +9,23 @@
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [License](#license)
-* [Questions](*questions)
+* [Questions](#questions)
   
 ## Description
-sdth
+This is not a real project just a demonstration of how the README generator works
 ## Installation
-gsh
+Since this is not a real applicaton there is nothing to install.
 ## Usage
-sdth
+You can't use this, as it does not exist.
 ## Contributing
-sdth
+Contributing requires the ability to lucid dream. Dream of a buidlling with blue bricks. The bricks represent lines of code. Knock down the building and then rebuild it. 
 ## Tests 
-sth
+You can't text something that does not exist
 
 ## License
-[Boost Software License 1.0](https://www.boost.org/LICENSE_1_0.txt)
+[The Unlicense](http://unlicense.org/)
       
 
 ## Questions
-Contact me through my [GitHub](http://github.com/e-p-n) or by [email](mailto:eric.n@me.com).
-
+Contact me through my [GitHub](http://github.com/sample-github) or by [email](mailto:sample@test.ca).
   

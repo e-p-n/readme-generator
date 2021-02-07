@@ -75,7 +75,7 @@ const licenses = [
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
 
-  const licenseBadge = licenses.filter(lic => lic.license == license.license);  
+  const licenseBadge = licenses.filter(lic => lic.license === license.license);  
   if (licenseBadge[0].badgeRef === ''){
     return '';
   }
@@ -86,7 +86,7 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  const licenseLink = licenses.filter(lic => lic.license == license.license);
+  const licenseLink = licenses.filter(lic => lic.license === license.license);
   return licenseLink[0].licenseUrl;
 }
 
@@ -108,12 +108,13 @@ function renderLicenseSection(license) {
 // Create TOC if required
 function generateTOC(toc){
   if (!toc.toc) {
-    return
+    return '';
   }
   let licenseInfo = '';
   if (toc.license != 'None'){
     licenseInfo = "* [License](#license)"
   }
+
   return `
 ## Table of Contents
 * [Description](#description)
@@ -122,7 +123,7 @@ function generateTOC(toc){
 * [Contributing](#contributing)
 * [Tests](#tests)
 ${licenseInfo}
-* [Questions](*questions)
+* [Questions](#questions)
   `
 }
 
@@ -130,8 +131,7 @@ ${licenseInfo}
 function renderQuestions(questions) {
   return `
 ## Questions
-Contact me through my [GitHub](http://github.com/${questions.github}) or by [email](mailto:${questions.email}).
-
+Contact me through my [GitHub](http://github.com/${questions.github}) or by [email](mailto:${questions.email}subject=Question regarding ${questions.title}).
   `
 }
 
@@ -155,6 +155,5 @@ ${renderLicenseSection(data)}
 ${renderQuestions(data)}
 `
 };
-
 
 module.exports = generateMarkdown;
