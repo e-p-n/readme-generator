@@ -99,7 +99,7 @@ function renderLicenseSection(license) {
     } else {
       return `
 ## License
-[${license.license}](${licenseLink})
+This application is covered under [${license.license}](${licenseLink}).
       `
 
     }
@@ -118,7 +118,7 @@ function generateTOC(toc){
   return `
 ## Table of Contents
 * [Description](#description)
-* [Instructions](#instructions)
+* [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Tests](#tests)
@@ -129,9 +129,10 @@ ${licenseInfo}
 
 // Create Questions section
 function renderQuestions(questions) {
+  const subject = "?subject=Question%20regarding%20"+questions.title.replace(/\s/g, '%20');
   return `
 ## Questions
-Contact me through my [GitHub](http://github.com/${questions.github}) or by [email](mailto:${questions.email}subject=Question regarding ${questions.title}).
+If you have questions, please visit my [GitHub](http://github.com/${questions.github}) page or [email](mailto:${questions.email}${subject}) me.
   `
 }
 

@@ -1,10 +1,10 @@
 
-# Sampple Project
+# Sample Project
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 ## Table of Contents
 * [Description](#description)
-* [Instructions](#instructions)
+* [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Tests](#tests)
@@ -12,20 +12,20 @@
 * [Questions](#questions)
   
 ## Description
-This is not a real project just a demonstration of how the README generator works
+This is not an actual project. I am just enetering data to demonstrate the README generator.
 ## Installation
-Since this is not a real applicaton there is nothing to install.
+You cannot skip required fields.
 ## Usage
-You can't use this, as it does not exist.
+Nothing to use.
 ## Contributing
-Contributing requires the ability to lucid dream. Dream of a buidlling with blue bricks. The bricks represent lines of code. Knock down the building and then rebuild it. 
+Contributing requires the ability to lucid dream. Dream that you are building a house and know that every brick represents a line of code you are adding.
 ## Tests 
-You can't text something that does not exist
+Nothing to test.
 
 ## License
-[The Unlicense](http://unlicense.org/)
+This application is covered under [The Unlicense](http://unlicense.org/).
       
 
 ## Questions
-Contact me through my [GitHub](http://github.com/sample-github) or by [email](mailto:sample@test.ca).
+If you have questions, please visit my [GitHub](http://github.com/e-p-n) page or [email](mailto:sample@test.ca?subject=Question%20regarding%20Sample%20Project) me.
   

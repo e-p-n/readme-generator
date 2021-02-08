@@ -20,31 +20,30 @@ const licenses = [
     'None'
 ];
 
-
 // TODO: Create an array of questions for user input
 
 const questions = [
     {
         type: 'input',
         name: 'github',
-        message: 'What is your GitHub username?',
+        message: 'What is your GitHub username? (required)',
         validate: projectInput => {
             if (projectInput) {
                 return true;
             } else {
-                console.log('Please supply your Github username.');
+                console.log('GitHUb username required.');
                 return false;
             }
         }
     },    {
         type: 'input',
         name: 'email',
-        message: 'What is your email address?',
+        message: 'What is your email address? (required)',
         validate: projectInput => {
             if (projectInput) {
                 return true;
             } else {
-                console.log('Please enter your email address.');
+                console.log('Email required.');
                 return false;
             }
         }
@@ -52,12 +51,12 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'Please enter the project title.',
+        message: 'Please enter the project title. (required)',
         validate: projectInput => {
             if (projectInput) {
                 return true;
             } else {
-                console.log('Please enter the project title.');
+                console.log('Project title required.');
                 return false;
             }
         }
@@ -65,12 +64,12 @@ const questions = [
     {
         type: 'input',
         name: 'projectDesc',
-        message: 'Please enter a project description.',
+        message: 'Please enter a project description. (required)',
         validate: descInput => {
             if (descInput) {
                 return true;
             } else {
-                console.log('Please enter a project description.');
+                console.log('Description required.');
                 return false;
             }
         }
@@ -78,12 +77,12 @@ const questions = [
     {
         type: 'input',
         name: 'instructions',
-        message: 'Please provide installation instructions.',
+        message: 'Please provide installation instructions. (required)',
         validate: instInput => {
             if (instInput) {
                 return true;
             } else {
-                console.log('Please provide installation instructions.');
+                console.log('Installation instructions required.');
                 return false;
             }
         }
@@ -91,12 +90,12 @@ const questions = [
     {
         type: 'input',
         name: 'usageInfo',
-        message: 'Please provide usage information.',
+        message: 'Please provide usage information. (required)',
         validate: usageInput => {
             if (usageInput) {
                 return true;
             } else {
-                console.log('Please provide usage information.');
+                console.log('Please provide usage information. (required)');
                 return false;
             }
         }
@@ -104,12 +103,12 @@ const questions = [
     {
         type: 'input',
         name: 'contribution',
-        message: 'Please provide contribution guidelines.',
+        message: 'Please provide contribution guidelines. (required)',
         validate: contInput => {
             if (contInput) {
                 return true;
             } else {
-                console.log('Please provide contribution guidelines.');
+                console.log('Contribution guidelines required.');
                 return false;
             }
         }
@@ -117,12 +116,12 @@ const questions = [
     {
         type: 'input',
         name: 'test',
-        message: 'Please provide test instructions.',
+        message: 'Please provide test instructions. (required)',
         validate: testInput => {
             if (testInput) {
                 return true;
             } else {
-                console.log('Please provide test instructions.');
+                console.log('Test instructions required.');
                 return false;
             }
         }
@@ -164,6 +163,15 @@ const writeToFile = (filename, data) => {
 
 // TODO: Create a function to initialize app
 function init() {
+    console.log(`
+**************************************
+********   README Generator   ********
+**************************************
+Answer the questions below. Once 
+completed, look in the 'dist' folder 
+for your finished and formatted 
+README.md file.
+    `);
     return inquirer.prompt(questions);
 
 }
