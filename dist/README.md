@@ -28,4 +28,3 @@ This application is covered under [Apache License 2.0](https://opensource.org/li
 
 ## Questions
 If you have questions, please visit my [GitHub](http://github.com/e-p-n) page or [email](mailto:sample@test.ca?subject=Question%20regarding%20Sample%20Project) me.
-  
