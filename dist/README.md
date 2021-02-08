@@ -1,6 +1,6 @@
 
 # Sample Project
-[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Table of Contents
 * [Description](#description)
@@ -23,7 +23,7 @@ Contributing requires the ability to lucid dream. Dream that you are building a 
 Nothing to test.
 
 ## License
-This application is covered under [The Unlicense](http://unlicense.org/).
+This application is covered under [Apache License 2.0](https://opensource.org/licenses/Apache-2.0).
       
 
 ## Questions
