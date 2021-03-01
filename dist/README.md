@@ -1,6 +1,6 @@
 
-# Sample Project
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# Employee Tracker
+
 
 ## Table of Contents
 * [Description](#description)
@@ -8,23 +8,21 @@
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Tests](#tests)
-* [License](#license)
+
 * [Questions](#questions)
   
 ## Description
-This is not an actual project. I am just enetering data to demonstrate the README generator.
+Terminal application for viewing, modifying and deleting department, role and employee infomration stored in a MySQL database.
 ## Installation
-You cannot skip required fields.
+Download from the git repository. Run "npm install" and the "npm start" to run the appplication. 
 ## Usage
-Nothing to use.
+kljh
 ## Contributing
-Contributing requires the ability to lucid dream. Dream that you are building a house and know that every brick represents a line of code you are adding.
+There is an issue where an error was generated when the program attempted to restrat the questions. It is therefor required to restart the application after each inquiry.
 ## Tests 
-Nothing to test.
+None
 
-## License
-This application is covered under [Apache License 2.0](https://opensource.org/licenses/Apache-2.0).
-      
 
 ## Questions
-If you have questions, please visit my [GitHub](http://github.com/e-p-n) page or [email](mailto:sample@test.ca?subject=Question%20regarding%20Sample%20Project) me.
+If you have questions, please visit my [GitHub](http://github.com/e-p-n) page or [email](mailto:eric.n@me.com?subject=Question%20regarding%20Employee%20Tracker) me.
+  
