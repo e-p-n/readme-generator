@@ -1,5 +1,5 @@
 
-# Employee Tracker
+# Social Media API
 
 
 ## Table of Contents
@@ -12,17 +12,17 @@
 * [Questions](#questions)
   
 ## Description
-Terminal application for viewing, modifying and deleting department, role and employee infomration stored in a MySQL database.
+Backend for a social media website. BUild with Node.js, Express, MongoDB, Mongoose and Date-FNS. Allows for creating, updating and deleting of Users, Friends, Thoughts and Reactions.
 ## Installation
-Download from the git repository. Run "npm install" and the "npm start" to run the appplication. 
+Clone the GitHub repo. Navigate to the directory of the clone. Run "npm install". Run "npm start" to launch the server.
 ## Usage
-kljh
+Using an API testing tool like Insomnia Core or Postman, you can test the functionality of the backend.
 ## Contributing
-There is an issue where an error was generated when the program attempted to restrat the questions. It is therefor required to restart the application after each inquiry.
+None
 ## Tests 
 None
 
 
 ## Questions
-If you have questions, please visit my [GitHub](http://github.com/e-p-n) page or [email](mailto:eric.n@me.com?subject=Question%20regarding%20Employee%20Tracker) me.
+If you have questions, please visit my [GitHub](http://github.com/e-p-n) page or [email](mailto:eric.n@me.com?subject=Question%20regarding%20Social%20Media%20API) me.
   
