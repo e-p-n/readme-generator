@@ -1,5 +1,5 @@
 
-# Social Media API
+# Budget Tracker
 
 
 ## Table of Contents
@@ -12,17 +12,17 @@
 * [Questions](#questions)
   
 ## Description
-Backend for a social media website. BUild with Node.js, Express, MongoDB, Mongoose and Date-FNS. Allows for creating, updating and deleting of Users, Friends, Thoughts and Reactions.
+Web app for tracking income and expenses.
 ## Installation
-Clone the GitHub repo. Navigate to the directory of the clone. Run "npm install". Run "npm start" to launch the server.
+See previous project.
 ## Usage
-Using an API testing tool like Insomnia Core or Postman, you can test the functionality of the backend.
+Enter income and expenses
 ## Contributing
-None
+none
 ## Tests 
-None
+to be filles
 
 
 ## Questions
-If you have questions, please visit my [GitHub](http://github.com/e-p-n) page or [email](mailto:eric.n@me.com?subject=Question%20regarding%20Social%20Media%20API) me.
+If you have questions, please visit my [GitHub](http://github.com/e-p-n) page or [email](mailto:eric.n@me.com?subject=Question%20regarding%20Budget%20Tracker) me.
   
