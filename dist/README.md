@@ -1,5 +1,5 @@
 
-# Budget Tracker
+# Portfolio
 
 
 ## Table of Contents
@@ -12,17 +12,17 @@
 * [Questions](#questions)
   
 ## Description
-Web app for tracking income and expenses.
+A portfolio website, featuring my web development work, built using React.
 ## Installation
-See previous project.
+none
 ## Usage
-Enter income and expenses
+BUilt with React, Bootstrap and Sass.
 ## Contributing
 none
 ## Tests 
-to be filles
+none
 
 
 ## Questions
-If you have questions, please visit my [GitHub](http://github.com/e-p-n) page or [email](mailto:eric.n@me.com?subject=Question%20regarding%20Budget%20Tracker) me.
+If you have questions, please visit my [GitHub](http://github.com/e-p-n) page or [email](mailto:eric.n@me.com?subject=Question%20regarding%20Portfolio) me.
   
